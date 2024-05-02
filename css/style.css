@@ -9618,6 +9618,18 @@ p,
   }
 }
 
+@media (max-width: 767px) {
+  .container-fluid.bg-dark {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(125 97 70)), url(../img/Wall/govv.png);
   background-position: left;
@@ -9630,8 +9642,14 @@ p,
   border-image: url(../img/tais2.jpg) 20 round; /* Gunakan gambar sebagai border */
   /* border-top: 8px solid transparent; Set border bottom, tetapi buatnya transparan */
  
-
 }
+
+@media (max-width: 767px) {
+  .jumbotron {
+    display: none;
+  }
+}
+
 
 .btn-play {
   position: relative;
