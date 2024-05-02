@@ -9650,6 +9650,21 @@ p,
   }
 }
 
+.nav-pills .nav-link {
+  padding: 0.5rem 1rem; /* Sesuaikan dengan kebutuhan */
+  font-size: 0.8rem; /* Sesuaikan dengan kebutuhan */
+}
+
+.nav-pills {
+  display: flex;
+  flex-wrap: nowrap; /* Agar tetap horizontal */
+  overflow-x: auto; /* Agar dapat di-scroll jika terlalu lebar */
+}
+
+.nav-item {
+  flex: 0 0 auto; /* Agar item tidak memperluas */
+}
+
 
 .btn-play {
   position: relative;
