@@ -1,0 +1,162 @@
+/* Style the mdropdown button */
+.dropbtn {
+  background-color: #0000008d;
+  color: rgb(255, 255, 255);
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #000000;
+  padding: 13px;
+}
+
+/* .dropbtn:hover, .dropbtn:focus {
+  background-color: #000000;
+  padding: 8px;
+} */
+
+/* The container <div> - needed to position the mdropdown content */
+.mdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.mdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff53;
+  width: 850px;
+  border-radius: 25px;
+  margin-top: 15px;
+  box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+
+}
+
+/* Links inside the mdropdown */
+.mdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of mdropdown links on hover */
+.mdropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the mdropdown menu (use JS to add this class to the .mdropdown-content container when the user clicks on the mdropdown button) */
+/* .show {
+  display: block;
+} */
+
+.list-group2{
+  max-height: 260px;
+  margin-bottom: 20px;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+/*    position: relative;*/
+}
+
+.colorful-text {
+  font-size: 24px;
+  background: linear-gradient(to right, red, yellow, black, rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight:900;
+}
+
+
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 100%;
+  width: 10px;
+  height: auto;
+}
+
+.blog .carousel-indicators {
+left: 0;
+top: 280px;
+bottom: 0px;
+}
+
+.blog .carousel-indicators .active {
+background:var(--primary);
+}
+
+.jumtais {
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(154 97 97)), url(../img/jumtais.png);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px;
+margin-bottom: 30px;
+/* margin-top: 0px; */
+/* background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 44%)), url(../img/header.jpg); */
+border-bottom: 8px solid transparent; /* Set border bottom, tetapi buatnya transparan */
+border-image: url(../img/tais2.jpg) 20 round; /* Gunakan gambar sebagai border */
+/* border-top: 8px solid transparent; Set border bottom, tetapi buatnya transparan */
+}
+
+/* @media only screen and (max-width: 600px) {
+} */
+/* Gaya CSS untuk layar dengan lebar maksimum 600px (ponsel) */
+
+
+.global-search-box {
+  z-index: 900 !important;
+  background-color: #ffffff53 !important;
+  border: 1px solid #870202c8 !important;
+  border-radius: 56px;
+  opacity: 0.7 !important;
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 225px;
+}
+
+.select2-container--krajee-bs5 .select2-selection--single {
+  height: calc(2.25rem + 2px);
+  line-height: 1.5;
+  padding: 0.375rem 1.5rem 0.375rem 0.5rem;
+}
+
+
+
+/* .search-button { */
+  /* display: block; Agar tombol pencarian tampil sebagai blok */
+  /* margin: 10px auto; Jarak dari tepi dan tengah */
+  /* padding: 10px 20px; Padding untuk estetika */
+  /* background-color: #007bff; Warna latar belakang */
+  /* color: #fff; Warna teks */
+  /* border: none; Hapus border */
+  /* border-radius: 5px; Agar tombol terlihat bulat */
+/* } */
+
+/* Media query untuk layar kecil */
+@media screen and (max-width: 600px) {
+  .search-button {
+    display: none; /* Sembunyikan tombol saat lebar layar kurang dari 600px */
+  }
+}
+
+
+/* Media query untuk menyembunyikan tombol pencarian pada layar Besar */
+@media screen and (min-width: 600px) {
+  .search-button2 {
+    display: none; /* Menyembunyikan tombol pencarian saat lebar layar kurang dari atau sama dengan 600px */
+  }
+}
