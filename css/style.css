@@ -9666,6 +9666,18 @@ p,
 }
 
 
+/* Gaya default untuk konten tab */
+.tab-content .tab-pane {
+  /* Sesuaikan gaya konten tab di sini */
+}
+
+/* Media query untuk mengatur tampilan konten pada layar kecil */
+@media (max-width: 768px) {
+  .tab-content .card {
+      width: 100%; /* Kartu akan menempati lebar penuh pada layar kecil */
+  }
+}
+
 .btn-play {
   position: relative;
   display: block;
