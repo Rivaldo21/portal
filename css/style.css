@@ -2348,11 +2348,11 @@ textarea.form-control {
 .btn:focus, .btn.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgb(255 255 254 / 25%);
-  
+
 }
 
 /* .minis{
-text-decoration: none; 
+text-decoration: none;
 border-radius: none;
 } */
 
@@ -5858,7 +5858,7 @@ a.close.disabled {
   margin-top: 20px;
   padding-left: 50px;
   padding-right: 10px;
-  
+
   /* overflow: hidden; */
 }
 
@@ -7485,13 +7485,13 @@ button.bg-dark:focus {
 
 .m-5 {
   margin: 3rem !important;
-  
+
 }
 
 
 .my-5 {
   margin-top: 3rem !important;
- 
+
  }
  .mt-5{
   margin-top: 3rem !important;
@@ -7668,7 +7668,7 @@ button.bg-dark:focus {
 
 .pb-6,
 .py-6 {
-  
+
   background-image: url(../img/bg.gif);
 }
 
@@ -9641,7 +9641,7 @@ p,
   border-bottom: 7px solid transparent; /* Set border bottom, tetapi buatnya transparan */
   border-image: url(../img/tais2.jpg) 20 round; /* Gunakan gambar sebagai border */
   /* border-top: 8px solid transparent; Set border bottom, tetapi buatnya transparan */
- 
+
 }
 
 @media (max-width: 767px) {
@@ -9841,10 +9841,10 @@ p,
   display: flex;
   flex-wrap: wrap;
 
-  
+
 }
 .mega-menu .col {
-  
+
   transition: background-color 0.3s ease; /* Efek transisi perubahan warna latar belakang */
 }
 
@@ -9882,7 +9882,7 @@ p,
   text-decoration: none;
   /* background-color: #f8f9fa; */
 
-  
+
 }
 
 @media (max-width: 767px) {
@@ -9894,7 +9894,7 @@ p,
   .text-lg-left,
   .text-lg-right {
       text-align: center !important;
-  
+
   }
 
   .align-items-center {
@@ -9963,4 +9963,3 @@ p,
 .dropdown:hover .dropbtn {background-color: #bd2130;}
 
 /* ============================================ */
-
