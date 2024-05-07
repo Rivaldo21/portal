@@ -285,3 +285,12 @@ p,
     padding: 0;
     list-style-type: none;
 }
+
+.tab-pane-news{
+    img.img-fluid{
+        width: 35%;
+        height: 100px;
+        object-fit: cover;
+
+    }
+}

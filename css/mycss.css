@@ -156,7 +156,25 @@ border-image: url(../img/tais2.jpg) 20 round; /* Gunakan gambar sebagai border *
 
 /* Media query untuk menyembunyikan tombol pencarian pada layar Besar */
 @media screen and (min-width: 600px) {
-  .search-button2 {
-    display: none; /* Menyembunyikan tombol pencarian saat lebar layar kurang dari atau sama dengan 600px */
-  }
+    .search-button2 {
+        display: none; /* Menyembunyikan tombol pencarian saat lebar layar kurang dari atau sama dengan 600px */
+    }
+}
+
+.owl-carousel .item {
+    border-radius: 4px;
+    overflow: hidden;
+}
+.owl-carousel .item img{
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .owl-carousel .item {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .owl-carousel .item img{
+        height: 140px;
+    }
 }
