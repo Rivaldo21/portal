@@ -178,3 +178,12 @@ border-image: url(../img/tais2.jpg) 20 round; /* Gunakan gambar sebagai border *
         height: 140px;
     }
 }
+@media screen and (max-width: 600px) {
+    .card-berita {
+      min-height: 180px;
+    }
+    .nav-pills .nav-link {
+        padding: 0.3rem .8rem;
+        font-size: 0.7rem;
+      }
+  }

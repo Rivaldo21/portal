@@ -9242,4 +9242,10 @@ p,
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .card-berita {
+    min-height: 200px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
